@@ -2,6 +2,7 @@ import { Separator } from "@radix-ui/react-separator"
 import {HomeCarousel, CarouselProps} from "./components/HomeCarousel"
 import HomeTextInfo from "./components/HomeTextInfo"
 import Testimonials from "./components/Testimonials"
+import Benefits from "./components/Benefits"
 
 const HomePage : React.FC = () => {
   const carouselProps : CarouselProps = {
@@ -18,6 +19,8 @@ const HomePage : React.FC = () => {
       <HomeTextInfo />
       <Separator className="w-11/12 bg-secondary border-[0.5px]" />
       <Testimonials />
+      <Separator className="w-11/12 bg-secondary border-[0.5px]" />
+      <Benefits />
     </div>
   )
 }
