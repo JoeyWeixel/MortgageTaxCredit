@@ -1,5 +1,4 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { start } from "repl";
 
 export type CarouselProps = {
   images: Array<[src: string, alt: string]>
