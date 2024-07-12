@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Header : React.FC = () => {
 
   return(
-    <header className="sticky w-screen top-0 z-100 border-b-[1px]">
+    <header className="sticky w-screen top-0 z-[100] border-b-[1px] bg-background">
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="w-screen h-14 flex justify-around">
           <NavigationMenuItem> {/* Logo Portion */}
